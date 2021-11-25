@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from techydevs.com/demos/themes/html/listhub-demo/listhub/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 23:09:09 GMT -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="TechyDevs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listhub - Directory & Listing HTML5 Template</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../static/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/line-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../static/css/animated-headline.css">
+    <link rel="stylesheet" href="../static/css/jquery-ui.css">
+    <link rel="stylesheet" href="../static/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="../static/css/chosen.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<!-- start per-loader -->
+<div class="loader-container">
+    <div class="loader-ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- end per-loader -->
+
+<!-- ================================
+            START HEADER AREA
+================================= -->
+<header class="header-area bg-dark position-relative top-auto">
+    <div class="header-top-bar py-2 border-bottom border-bottom-color padding-right-30px padding-left-30px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center header-top-info font-size-14 font-weight-medium">
+                    <div class="user-chosen-select-container mr-3">
+                        <select class="user-chosen-select">
+                            <option value="1" selected>English</option>
+                            <option value="2">Espanol</option>
+                            <option value="3">Deutsch</option>
+                            <option value="4">Türkçe</option>
+                            <option value="5">Polski</option>
+                            <option value="6">Português</option>
+                            <option value="7">Italiano</option>
+                            <option value="8">Dansk</option>
+                            <option value="9">French</option>
+                            <option value="10">German</option>
+                        </select>
+                    </div>
+                    <p class="login-and-signup-wrap">
+                        <a href="#" data-toggle="modal" data-target="#loginModal">
+                            <span class="mr-1 la la-sign-in"></span>Login
+                        </a>
+                        <span class="or-text px-2">or</span>
+                        <a href="#" data-toggle="modal" data-target="#signUpModal">
+                            <span class="mr-1 la la-user-plus"></span>Sign Up
+                        </a>
+                    </p>
+                </div><!-- end col-lg-6 -->
+                <div class="col-lg-6 d-flex align-items-center justify-content-end header-top-info">
+                    <ul class="list-items list-items-style d-flex">
+                        <li><i class="la la-map-marker mr-1"></i>Brooklyn, NY, US.</li>
+                        <li><a href="tel:+1-800-732-1521"><i class="la la-phone mr-1"></i>+1-800-732-1521</a></li>
+                    </ul>
+                    <ul class="social-profile social-profile-colored pl-3">
+                        <li><a href="#" class="facebook-bg"><i class="lab la-facebook-f"></i></a></li>
+                        <li><a href="#" class="twitter-bg"><i class="lab la-twitter"></i></a></li>
+                        <li><a href="#" class="instagram-bg"><i class="lab la-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container-fluid -->
+    </div><!-- end header-top-bar -->
+    <div class="header-menu-wrapper padding-right-30px padding-left-30px">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="menu-full-width">
+                        <div class="logo">
+                            <a href="index-2.html"><img src="../static/images/logo-white.png" alt="logo"></a>
+                            <div class="d-flex align-items-center">
+                                <a href="add-listing.html" class="btn-gray add-listing-btn-show font-size-24 mr-2 flex-shrink-0" data-toggle="tooltip" data-placement="left" title="Add Listing">
+                                    <i class="la la-plus"></i>
+                                </a>
+                                <div class="menu-toggle">
+                                    <span class="menu__bar"></span>
+                                    <span class="menu__bar"></span>
+                                    <span class="menu__bar"></span>
+                                </div><!-- end menu-toggle -->
+                            </div>
+                        </div><!-- end logo -->
+                        <div class="quick-search-form d-flex align-items-center">
+                            <form action="#" class="w-100">
+                                <div class="header-search position-relative">
+                                    <i class="la la-search form-icon"></i>
+                                    <input type="search" placeholder="What are you looking for?">
+                                    <div class="instant-results">
+                                        <ul class="instant-results-list">
+                                            <li><a href="#" class="d-flex align-items-center"><span class="icon-element bg-1 mr-2"><i class="la la-glass"></i></span>Food & Drinks</a></li>
+                                            <li><a href="#" class="d-flex align-items-center"><span class="icon-element bg-2 mr-2"><i class="la la-hotel"></i></span>Travel & Hotel</a></li>
+                                            <li><a href="#" class="d-flex align-items-center"><span class="icon-element bg-3 mr-2"><i class="la la-cutlery"></i></span>Restaurants</a></li>
+                                            <li><a href="#" class="d-flex align-items-center"><span class="icon-element bg-4 mr-2"><i class="la la-television"></i></span>Entertainment</a></li>
+                                            <li><a href="#" class="d-flex align-items-center"><span class="icon-element bg-5 mr-2"><i class="la la-shopping-bag"></i></span> Shopping</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div><!-- end quick-search-form -->
+                        <div class="main-menu-content ml-auto">
+                            <nav class="main-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">home <span class="la la-angle-down"></span></a>
+                                        <ul class="dropdown-menu-item">
+                                            <li><a href="index-2.html">home one</a></li>
+                                            <li><a href="index2.html">home two</a></li>
+                                            <li><a href="index3.html">home three</a></li>
+                                            <li><a href="index4.html">home four</a></li>
+                                            <li><a href="index5.html">home five</a></li>
+                                            <li><a href="index6.html">home six</a></li>
+                                            <li><a href="index7.html">home seven</a></li>
+                                            <li><a href="#">home (Airbnd) <span class="ribbon">Coming</span></a></li>
+                                            <li><a href="#">home (Vrbo) <span class="ribbon">Coming</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">listings <span class="la la-angle-down"></span></a>
+                                        <ul class="dropdown-menu-item">
+                                            <li><a href="listing-grid.html">listing grid</a></li>
+                                            <li><a href="listing-list.html">listing list</a></li>
+                                            <li><a href="listing-fullwidth-map.html">fullwidth map</a></li>
+                                            <li><a href="listing-half-map-grid.html">half map grid</a></li>
+                                            <li><a href="listing-half-map-list.html">half map list</a></li>
+                                            <li><a href="listing-left-sidebar.html">listing left sidebar  </a></li>
+                                            <li><a href="listing-right-sidebar.html">listing right sidebar  </a></li>
+                                            <li><a href="listing-details.html">listing details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">pages <span class="la la-angle-down"></span></a>
+                                        <div class="dropdown-menu-item mega-menu">
+                                            <ul class="row no-gutters">
+                                                <li class="col-lg-4 mega-menu-item">
+                                                    <ul>
+                                                        <li><a href="dashboard.html">dashboard <span class="ribbon">Hot</span></a></li>
+                                                        <li><a href="about.html">about</a></li>
+                                                        <li><a href="user-profile.html">user profile</a></li>
+                                                        <li><a href="career.html">career</a></li>
+                                                        <li><a href="career-details.html">career details</a></li>
+                                                        <li><a href="top-place.html">top places </a></li>
+                                                        <li><a href="add-listing.html">add listing </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-lg-4 mega-menu-item">
+                                                    <ul>
+                                                        <li><a href="top-author.html">top authors </a></li>
+                                                        <li><a href="booking.html">booking</a></li>
+                                                        <li><a href="booking-confirmation.html">booking confirmation </a></li>
+                                                        <li><a href="invoice.html">invoice</a></li>
+                                                        <li><a href="pricing.html">Pricing</a></li>
+                                                        <li><a href="all-categories.html">all categories</a></li>
+                                                        <li><a href="all-locations.html">all locations</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-lg-4 mega-menu-item">
+                                                    <ul>
+                                                        <li><a href="add-new-post.html">add new post </a></li>
+                                                        <li><a href="contact.html">contact</a></li>
+                                                        <li><a href="faq.html">faq</a></li>
+                                                        <li><a href="page-404.html">404 page</a></li>
+                                                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                        <li><a href="coming-soon.html"> Coming Soon</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">blog <span class="la la-angle-down"></span></a>
+                                        <ul class="dropdown-menu-item">
+                                            <li><a href="blog-full-width.html">full width</a></li>
+                                            <li><a href="blog-grid.html">blog grid</a></li>
+                                            <li><a href="blog-left-sidebar.html">left sidebar </a></li>
+                                            <li><a href="blog-right-sidebar.html">right sidebar </a></li>
+                                            <li><a href="blog-single.html">blog detail</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div><!-- end main-menu-content -->
+                        <div class="nav-right-content">
+                            <a href="add-listing.html" class="theme-btn gradient-btn shadow-none add-listing-btn-hide">
+                                <i class="la la-layer-group mr-2"></i>Add Listing
+                            </a>
+                        </div><!-- end nav-right-content -->
+                    </div><!-- end menu-full-width -->
+                </div><!-- end col-lg-12 -->
+            </div><!-- end row -->
+        </div><!-- end container-fluid -->
+    </div><!-- end header-menu-wrapper -->
+</header>
+<!-- ================================
+         END HEADER AREA
+================================= -->
+
+<!-- Hero map start -->
+<div class="home-map">
+    <div class="map-container height-500 w-100">
+        <div id="myMap"></div>
+        <a href="#" class="enable-scroll" title="Toggle Enable or disable scrolling on map">
+            <i class="la la-mouse mr-2"></i>Enable Scrolling
+        </a>
+    </div>
+</div>
+<!-- Hero map end -->
+
+<!-- ================================
+    START HERO AREA
+================================= -->
+<section class="hero-search-area arrow-down-shape bg-gradient-gray padding-top-50px padding-bottom-45px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-search-input mt-0">
+                    <div class="main-search-input-item">
+                        <form action="#" class="form-box">
+                            <div class="form-group mb-0">
+                                <span class="la la-search form-icon"></span>
+                                <input class="form-control" type="search" placeholder="What are you looking for?">
+                            </div>
+                        </form>
+                    </div><!-- end main-search-input-item -->
+                    <div class="main-search-input-item user-chosen-select-container">
+                        <select class="user-chosen-select">
+                            <option value="0">Select a Location</option>
+                            <option value="AF">Afghanistan</option>
+                            <option value="AX">Åland Islands</option>
+                            <option value="AL">Albania</option>
+                            <option value="DZ">Algeria</option>
+                            <option value="AD">Andorra</option>
+                            <option value="AO">Angola</option>
+                            <option value="AI">Anguilla</option>
+                            <option value="AQ">Antarctica</option>
+                            <option value="AG">Antigua &amp; Barbuda</option>
+                            <option value="AR">Argentina</option>
+                            <option value="AM">Armenia</option>
+                            <option value="AW">Aruba</option>
+                            <option value="AC">Ascension Island</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="AZ">Azerbaijan</option>
+                            <option value="BS">Bahamas</option>
+                            <option value="BH">Bahrain</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="BB">Barbados</option>
+                            <option value="BY">Belarus</option>
+                            <option value="BE">Belgium</option>
+                            <option value="BZ">Belize</option>
+                            <option value="BJ">Benin</option>
+                            <option value="BM">Bermuda</option>
+                            <option value="BT">Bhutan</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="BA">Bosnia &amp; Herzegovina</option>
+                            <option value="BW">Botswana</option>
+                            <option value="BV">Bouvet Island</option>
+                            <option value="BR">Brazil</option>
+                            <option value="IO">British Indian Ocean Territory</option>
+                            <option value="VG">British Virgin Islands</option>
+                            <option value="BN">Brunei</option>
+                            <option value="BG">Bulgaria</option>
+                            <option value="BF">Burkina Faso</option>
+                            <option value="BI">Burundi</option>
+                            <option value="KH">Cambodia</option>
+                            <option value="CM">Cameroon</option>
+                            <option value="CA">Canada</option>
+                            <option value="CV">Cape Verde</option>
+                            <option value="BQ">Caribbean Netherlands</option>
+                            <option value="KY">Cayman Islands</option>
+                            <option value="CF">Central African Republic</option>
+                            <option value="TD">Chad</option>
+                            <option value="CL">Chile</option>
+                            <option value="CN">China</option>
+                            <option value="CO">Colombia</option>
+                            <option value="KM">Comoros</option>
+                            <option value="CG">Congo - Brazzaville</option>
+                            <option value="CD">Congo - Kinshasa</option>
+                            <option value="CK">Cook Islands</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="CI">Côte d’Ivoire</option>
+                            <option value="HR">Croatia</option>
+                            <option value="CW">Curaçao</option>
+                            <option value="CY">Cyprus</option>
+                            <option value="CZ">Czechia</option>
+                            <option value="DK">Denmark</option>
+                            <option value="DJ">Djibouti</option>
+                            <option value="DM">Dominica</option>
+                            <option value="DO">Dominican Republic</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="EG">Egypt</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="GQ">Equatorial Guinea</option>
+                            <option value="ER">Eritrea</option>
+                            <option value="EE">Estonia</option>
+                            <option value="SZ">Eswatini</option>
+                            <option value="ET">Ethiopia</option>
+                            <option value="FK">Falkland Islands</option>
+                            <option value="FO">Faroe Islands</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="FI">Finland</option>
+                            <option value="FR">France</option>
+                            <option value="GF">French Guiana</option>
+                            <option value="PF">French Polynesia</option>
+                            <option value="TF">French Southern Territories</option>
+                            <option value="GA">Gabon</option>
+                            <option value="GM">Gambia</option>
+                            <option value="GE">Georgia</option>
+                            <option value="DE">Germany</option>
+                            <option value="GH">Ghana</option>
+                            <option value="GI">Gibraltar</option>
+                            <option value="GR">Greece</option>
+                            <option value="GL">Greenland</option>
+                            <option value="GD">Grenada</option>
+                            <option value="GP">Guadeloupe</option>
+                            <option value="GU">Guam</option>
+                            <option value="GT">Guatemala</option>
+                            <option value="GG">Guernsey</option>
+                            <option value="GN">Guinea</option>
+                            <option value="GW">Guinea-Bissau</option>
+                            <option value="GY">Guyana</option>
+                            <option value="HT">Haiti</option>
+                            <option value="HN">Honduras</option>
+                            <option value="HK">Hong Kong SAR China</option>
+                            <option value="HU">Hungary</option>
+                            <option value="IS">Iceland</option>
+                            <option value="IN">India</option>
+                            <option value="ID">Indonesia</option>
+                            <option value="IR">Iran</option>
+                            <option value="IQ">Iraq</option>
+                            <option value="IE">Ireland</option>
+                            <option value="IM">Isle of Man</option>
+                            <option value="IL">Israel</option>
+                            <option value="IT">Italy</option>
+                            <option value="JM">Jamaica</option>
+                            <option value="JP">Japan</option>
+                            <option value="JE">Jersey</option>
+                            <option value="JO">Jordan</option>
+                            <option value="KZ">Kazakhstan</option>
+                            <option value="KE">Kenya</option>
+                            <option value="KI">Kiribati</option>
+                            <option value="XK">Kosovo</option>
+                            <option value="KW">Kuwait</option>
+                            <option value="KG">Kyrgyzstan</option>
+                            <option value="LA">Laos</option>
+                            <option value="LV">Latvia</option>
+                            <option value="LB">Lebanon</option>
+                            <option value="LS">Lesotho</option>
+                            <option value="LR">Liberia</option>
+                            <option value="LY">Libya</option>
+                            <option value="LI">Liechtenstein</option>
+                            <option value="LT">Lithuania</option>
+                            <option value="LU">Luxembourg</option>
+                            <option value="MO">Macao SAR China</option>
+                            <option value="MG">Madagascar</option>
+                            <option value="MW">Malawi</option>
+                            <option value="MY">Malaysia</option>
+                            <option value="MV">Maldives</option>
+                            <option value="ML">Mali</option>
+                            <option value="MT">Malta</option>
+                            <option value="MQ">Martinique</option>
+                            <option value="MR">Mauritania</option>
+                            <option value="MU">Mauritius</option>
+                            <option value="YT">Mayotte</option>
+                            <option value="MX">Mexico</option>
+                            <option value="MD">Moldova</option>
+                            <option value="MC">Monaco</option>
+                            <option value="MN">Mongolia</option>
+                            <option value="ME">Montenegro</option>
+                            <option value="MS">Montserrat</option>
+                            <option value="MA">Morocco</option>
+                            <option value="MZ">Mozambique</option>
+                            <option value="MM">Myanmar (Burma)</option>
+                            <option value="NA">Namibia</option>
+                            <option value="NR">Nauru</option>
+                            <option value="NP">Nepal</option>
+                            <option value="NL">Netherlands</option>
+                            <option value="NC">New Caledonia</option>
+                            <option value="NZ">New Zealand</option>
+                            <option value="NI">Nicaragua</option>
+                            <option value="NE">Niger</option>
+                            <option value="NG">Nigeria</option>
+                            <option value="NU">Niue</option>
+                            <option value="MK">North Macedonia</option>
+                            <option value="NO">Norway</option>
+                            <option value="OM">Oman</option>
+                            <option value="PK">Pakistan</option>
+                            <option value="PS">Palestinian Territories</option>
+                            <option value="PA">Panama</option>
+                            <option value="PG">Papua New Guinea</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Peru</option>
+                            <option value="PH">Philippines</option>
+                            <option value="PN">Pitcairn Islands</option>
+                            <option value="PL">Poland</option>
+                            <option value="PT">Portugal</option>
+                            <option value="PR">Puerto Rico</option>
+                            <option value="QA">Qatar</option>
+                            <option value="RE">Réunion</option>
+                            <option value="RO">Romania</option>
+                            <option value="RU">Russia</option>
+                            <option value="RW">Rwanda</option>
+                            <option value="WS">Samoa</option>
+                            <option value="SM">San Marino</option>
+                            <option value="ST">São Tomé &amp; Príncipe</option>
+                            <option value="SA">Saudi Arabia</option>
+                            <option value="SN">Senegal</option>
+                            <option value="RS">Serbia</option>
+                            <option value="SC">Seychelles</option>
+                            <option value="SL">Sierra Leone</option>
+                            <option value="SG">Singapore</option>
+                            <option value="SX">Sint Maarten</option>
+                            <option value="SK">Slovakia</option>
+                            <option value="SI">Slovenia</option>
+                            <option value="SB">Solomon Islands</option>
+                            <option value="SO">Somalia</option>
+                            <option value="ZA">South Africa</option>
+                            <option value="GS">South Georgia &amp; South Sandwich Islands</option>
+                            <option value="KR">South Korea</option>
+                            <option value="SS">South Sudan</option>
+                            <option value="ES">Spain</option>
+                            <option value="LK">Sri Lanka</option>
+                            <option value="BL">St. Barthélemy</option>
+                            <option value="SH">St. Helena</option>
+                            <option value="KN">St. Kitts &amp; Nevis</option>
+                            <option value="LC">St. Lucia</option>
+                            <option value="MF">St. Martin</option>
+                            <option value="PM">St. Pierre &amp; Miquelon</option>
+                            <option value="VC">St. Vincent &amp; Grenadines</option>
+                            <option value="SR">Suriname</option>
+                            <option value="SJ">Svalbard &amp; Jan Mayen</option>
+                            <option value="SE">Sweden</option>
+                            <option value="CH">Switzerland</option>
+                            <option value="TW">Taiwan</option>
+                            <option value="TJ">Tajikistan</option>
+                            <option value="TZ">Tanzania</option>
+                            <option value="TH">Thailand</option>
+                            <option value="TL">Timor-Leste</option>
+                            <option value="TG">Togo</option>
+                            <option value="TK">Tokelau</option>
+                            <option value="TO">Tonga</option>
+                            <option value="TT">Trinidad &amp; Tobago</option>
+                            <option value="TA">Tristan da Cunha</option>
+                            <option value="TN">Tunisia</option>
+                            <option value="TR">Turkey</option>
+                            <option value="TM">Turkmenistan</option>
+                            <option value="TC">Turks &amp; Caicos Islands</option>
+                            <option value="TV">Tuvalu</option>
+                            <option value="UG">Uganda</option>
+                            <option value="UA">Ukraine</option>
+                            <option value="AE">United Arab Emirates</option>
+                            <option value="GB">United Kingdom</option>
+                            <option value="US">United States</option>
+                            <option value="UY">Uruguay</option>
+                            <option value="UZ">Uzbekistan</option>
+                            <option value="VU">Vanuatu</option>
+                            <option value="VA">Vatican City</option>
+                            <option value="VE">Venezuela</option>
+                            <option value="VN">Vietnam</option>
+                            <option value="WF">Wallis &amp; Futuna</option>
+                            <option value="EH">Western Sahara</option>
+                            <option value="YE">Yemen</option>
+                            <option value="ZM">Zambia</option>
+                            <option value="ZW">Zimbabwe</option>
+                        </select>
+                    </div><!-- end main-search-input-item -->
+                    <div class="main-search-input-item user-chosen-select-container">
+                        <select class="user-chosen-select">
+                            <option value="0">Select a Category</option>
+                            <option value="1">Shops</option>
+                            <option value="2">Hotels</option>
+                            <option value="3">Foods & Restaurants</option>
+                            <option value="4">Fitness</option>
+                            <option value="5">Travel</option>
+                            <option value="6">Salons</option>
+                            <option value="7">Event</option>
+                            <option value="8">Business</option>
+                        </select>
+                    </div><!-- end main-search-input-item -->
+                    <div class="main-search-input-item">
+                        <button class="theme-btn gradient-btn border-0 w-100" type="submit"><i class="la la-search mr-2"></i>Search Now</button>
+                    </div><!-- end main-search-input-item -->
+                </div><!-- end main-search-input -->
+                <ul class="tag-list tag-list-sm text-center pt-4">
+                    <li><span class="text-color font-weight-medium mr-1">Popular Searches:</span></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Restaurant</a></li>
+                    <li><a href="#">Gym</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Business</a></li>
+                </ul>
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end hero-search-area -->
+<!-- ================================
+    START HERO AREA
+================================= -->
+
+<!-- ================================
+    START CARD AREA
+================================= -->
+<section class="card-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <p class="sec__desc pb-2 ">Discover top-rated local businesses</p>
+                    <h2 class="sec__title mb-0">Most Visited Listings</h2>
+                </div><!-- end section-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row padding-top-60px">
+            <div class="col-lg-12">
+                <div class="card-carousel owl-trigger-action">
+                    <div class="card-item border border-color">
+                        <div class="card-image">
+                            <a href="listing-details.html" class="d-block">
+                                <img src="../static/images/img4.jpg" class="card__img" alt="">
+                                <span class="badge">now open</span>
+                            </a>
+                            <span class="bookmark-btn" data-toggle="tooltip" data-placement="top" title="Save">
+                                <i class="la la-bookmark"></i>
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
+                                <img src="../static/images/listing-logo.jpg" alt="author-img">
+                            </a>
+                            <h4 class="card-title pt-3">
+                                <a href="listing-details.html">Favorite Place Food Bank</a>
+                                <i class="la la-check-circle ml-1" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
+                            </h4>
+                            <p class="card-sub"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
+                            <ul class="listing-meta d-flex align-items-center">
+                                <li class="d-flex align-items-center">
+                                    <span class="rate flex-shrink-0">4.7</span>
+                                    <span class="rate-text">5 Ratings</span>
+                                </li>
+                                <li>
+                                    <span class="price-range" data-toggle="tooltip" data-placement="top" title="Pricey">
+                                        <strong class="font-weight-medium">$</strong>
+                                        <strong class="font-weight-medium">$</strong>
+                                        <strong class="font-weight-medium">$</strong>
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="la la-cutlery mr-1 listing-icon"></i><a href="#" class="listing-cat-link">Restaurant</a>
+                                </li>
+                            </ul>
+                            <ul class="info-list padding-top-20px">
+                                <li><span class="la la-link icon"></span>
+                                    <a href="#"> www.techydevs.com</a>
+                                </li>
+                                <li><span class="la la-calendar-check-o icon"></span>
+                                    Opened 1 month ago
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end card-item -->
+                    <div class="card-item border border-color">
+                        <div class="card-image">
+                            <a href="listing-details.html" class="d-block">
+                                <img src="../static/images/img5.jpg" class="card__img" alt="">
+                                <span class="badge bg-10">closed</span>
+                            </a>
+                            <span class="bookmark-btn" data-toggle="tooltip" data-placement="top" title="Save">
+                                <i class="la la-bookmark"></i>
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
+                                <img src="../static/images/listing-logo2.jpg" alt="author-img">
+                            </a>
+                            <h4 class="card-title pt-3">
+                                <a href="listing-details.html">Beach Blue Boardwalk</a>
+                            </h4>
+                            <p class="card-sub"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
+                            <ul class="listing-meta d-flex align-items-center">
+                                <li class="d-flex align-items-center">
+                                    <span class="rate flex-shrink-0">4.7</span>
+                                    <span class="rate-text">5 Ratings</span>
+                                </li>
+                                <li>
+                                    <span class="price-range" data-toggle="tooltip" data-placement="top" title="Moderate">
+                                        <strong class="font-weight-medium">$</strong>
+                                        <strong class="font-weight-medium">$</strong>
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="la la-plane mr-1 listing-icon"></i><a href="#" class="listing-cat-link">Travel</a>
+                                </li>
+                            </ul>
+                            <ul class="info-list padding-top-20px">
+                                <li><span class="la la-link icon"></span>
+                                    <a href="#"> www.techydevs.com</a>
+                                </li>
+                                <li><span class="la la-calendar-check-o icon"></span>
+                                    Opened 1 month ago
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end card-item -->
+                    <div class="card-item border border-color">
+                        <div class="card-image">
+                            <a href="listing-details.html" class="d-block">
+                                <img src="../static/images/img6.jpg" class="card__img" alt="">
+                                <span class="badge">Now Open</span>
+                            </a>
+                            <span class="bookmark-btn" data-toggle="tooltip" data-placement="top" title="Save">
+                                <i class="la la-bookmark"></i>
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
+                                <img src="../static/images/listing-logo3.jpg" alt="author-img">
+                            </a>
+                            <h4 class="card-title pt-3">
+                                <a href="listing-details.html">Hotel Govendor</a>
+                            </h4>
+                            <p class="card-sub"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
+                            <ul class="listing-meta d-flex align-items-center">
+                                <li class="d-flex align-items-center">
+                                    <span class="rate flex-shrink-0">4.7</span>
+                                    <span class="rate-text">5 Ratings</span>
+                                </li>
+                                <li>
+                                    <span class="price-range" data-toggle="tooltip" data-placement="top" title="Inexpensive">
+                                        <strong class="font-weight-medium">$</strong>
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="la la-hotel mr-1 listing-icon"></i><a href="#" class="listing-cat-link">Hotels</a>
+                                </li>
+                            </ul>
+                            <ul class="info-list padding-top-20px">
+                                <li><span class="la la-link icon"></span>
+                                    <a href="#"> www.techydevs.com</a>
+                                </li>
+                                <li><span class="la la-calendar-check-o icon"></span>
+                                    Opened 1 month ago
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end card-item -->
+                    <div class="card-item border border-color">
+                        <div class="card-image">
+                            <a href="listing-details.html" class="d-block">
+                                <img src="../static/images/img7.jpg" class="card__img" alt="">
+                                <span class="badge">now open</span>
+                            </a>
+                            <span class="bookmark-btn" data-toggle="tooltip" data-placement="top" title="Save">
+                                <i class="la la-bookmark"></i>
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="TechyDevs">
+                                <img src="../static/images/anywhere.png" alt="author-img">
+                            </a>
+                            <h4 class="card-title pt-3">
+                                <a href="listing-details.html">Sticky band party</a>
+                                <i class="la la-check-circle ml-1" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
+                            </h4>
+                            <p class="card-sub"><a href="#"><i class="la la-map-marker mr-1 text-color-2"></i>Bishop Avenue, New York</a></p>
+                            <ul class="listing-meta d-flex align-items-center">
+                                <li class="d-flex align-items-center">
+                                    <span class="rate flex-shrink-0">4.7</span>
+                                    <span class="rate-text">5 Ratings</span>
+                                </li>
+                                <li>
+                                    <span class="price-range" data-toggle="tooltip" data-placement="top" title="Pricey">
+                                        <strong class="font-weight-medium">$</strong>
+                                        <strong class="font-weight-medium">$</strong>
+                                        <strong class="font-weight-medium">$</strong>
+                                    </span>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="la la-music mr-1 listing-icon"></i><a href="#" class="listing-cat-link">Event</a>
+                                </li>
+                            </ul>
+                            <ul class="info-list padding-top-20px">
+                                <li><span class="la la-link icon"></span>
+                                    <a href="#"> www.techydevs.com</a>
+                                </li>
+                                <li><span class="la la-calendar-check-o icon"></span>
+                                    Opened 1 month ago
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- end card-item -->
+                </div><!-- end card-carousel -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end card-area -->
+<!-- ================================
+    END CARD AREA
+================================= -->
+
+<div class="section-block"></div>
+
+<!-- ================================
+    START HIW AREA
+================================= -->
+<section class="hiw-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h2 class="sec__title">How Listhub Works?</h2>
+                    <p class="sec__desc">
+                        Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, <br>
+                        a feugiat eros. Nunc ut lacinia tortors.
+                    </p>
+                </div><!-- end section-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row padding-top-60px info-box-line-bg">
+            <div class="col-lg-4 responsive-column">
+                <div class="info-box info-box-layout-3">
+                    <div class="info-icon bg-1">
+                        01
+                    </div><!-- end info-icon-->
+                    <div class="info-content">
+                        <h4 class="info__title">Find Interesting Business</h4>
+                        <p class="info__desc">
+                            Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus
+                        </p>
+                    </div><!-- end info-content -->
+                </div><!-- end info-box -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="info-box info-box-layout-3">
+                    <div class="info-icon bg-2">
+                        02
+                    </div><!-- end info-icon-->
+                    <div class="info-content">
+                        <h4 class="info__title">Contact a Few Owners</h4>
+                        <p class="info__desc">
+                            Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus
+                        </p>
+                    </div><!-- end info-content -->
+                </div><!-- end info-box -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="info-box info-box-layout-3">
+                    <div class="info-icon bg-3">
+                        03
+                    </div><!-- end info-icon-->
+                    <div class="info-content">
+                        <h4 class="info__title">Make a Listing</h4>
+                        <p class="info__desc">
+                            Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus
+                        </p>
+                    </div><!-- end info-content -->
+                </div><!-- end info-box -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end hiw-area -->
+<!-- ================================
+    END HIW AREA
+================================= -->
+
+<!-- ================================
+    START CTA AREA
+================================= -->
+<section class="cta-area bg-gradient-gray padding-bottom-80px text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cta-content cta-content-top-negative p-0">
+                    <div class="section-heading">
+                        <a class="icon-element icon-element-lg icon-element-white hover-scale mx-auto shadow-lg" href="https://www.youtube.com/watch?v=GlrxcuEDyF8" data-fancybox="" title="Play Video">
+                            <i class="la la-play"></i>
+                        </a>
+                        <h2 class="sec__title pt-4">Join Our Community to Make <br> Smart Business</h2>
+                        <p class="sec__desc">
+                            We’re full-service, local agents who know how to find people and home each together. <br>
+                            We use online tools with an unmatched search capability to make <br> you smarter and faster.
+                        </p>
+                    </div><!-- end section-heading -->
+                    <div class="btn-box padding-top-35px">
+                        <a href="#" class="theme-btn gradient-btn" data-toggle="modal" data-target="#signUpModal"><i class="la la-user-plus mr-2"></i>Create an Account</a>
+                    </div><!-- end btn-box -->
+                </div>
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end cta-area -->
+<!-- ================================
+    END CTA AREA
+================================= -->
+
+<!-- ================================
+    START PRICING AREA
+================================= -->
+<section class="pricing-area position-relative section--padding overflow-hidden">
+    <div class="svg-bg svg-bg-3 gradient-bg-3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 118" preserveAspectRatio="none">
+            <defs>
+                <linearGradient id="svg-gradient-4">
+                    <stop offset="15%" stop-color="#F8F9FA" />
+                    <stop offset="95%" stop-color="#b9caf1" />
+                </linearGradient>
+            </defs>
+            <path opacity="0.2" d="M0,112 C400.666667,36 800.666667,-0.666666667 1200,2 C1200,41.3333333 1200,80 1200,118 L0,118 L0,112 Z"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <p class="sec__desc pb-2">Post Your Listing Today!</p>
+                    <h2 class="sec__title mb-0">Simple, Flexible & Predictable <br> Pricing Options</h2>
+                </div><!-- end section-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row padding-top-60px">
+            <div class="col-lg-4 responsive-column">
+                <div class="price-item">
+                    <div class="price-head bg-1">
+                        <h3 class="price__title text-uppercase">Standard</h3>
+                        <svg class="svg-bg h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><path fill="#fff" d="M0 10 0 0 A 90 59, 0, 0, 0, 100 0 L 100 10 Z"></path></svg>
+                    </div><!-- end price-head -->
+                    <div class="price-box d-flex flex-column align-items-center justify-content-center mx-auto text-color-3">
+                        <h3 class="price__text text-color-3">Free</h3>
+                        <span class="price__text-meta">/ per month</span>
+                    </div><!-- end price-box -->
+                    <ul class="list-items price-list mt-4">
+                        <li><i class="la la-check text-success mr-2"></i>One Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>15 Days Availability</li>
+                        <li><i class="la la-check text-success mr-2"></i>2 Tags Per Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>Non-Featured</li>
+                        <li><i class="la la-check text-success mr-2"></i>Limited Support</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Average Price Range</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Business Hours</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Lifetime Availability</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Featured In Search Results</li>
+                    </ul>
+                    <div class="price-btn-box text-center">
+                        <a href="#" class="theme-btn bg-1 text-white">Get Started <i class="la la-arrow-right ml-2"></i></a>
+                    </div>
+                </div><!-- end price-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="price-item">
+                    <div class="price-head bg-2">
+                        <span class="ribbon ribbon-2">Most Popular</span>
+                        <h3 class="price__title text-uppercase">Professional</h3>
+                        <svg class="svg-bg h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><path fill="#fff" d="M0 10 0 0 A 90 59, 0, 0, 0, 100 0 L 100 10 Z"></path></svg>
+                    </div><!-- end price-head -->
+                    <div class="price-box d-flex flex-column align-items-center justify-content-center mx-auto text-color-4">
+                        <h3 class="price__text text-color-4">$19.90</h3>
+                        <span class="price__text-meta">/ per month</span>
+                    </div><!-- end price-box -->
+                    <ul class="list-items price-list mt-4">
+                        <li><i class="la la-check text-success mr-2"></i>One Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>15 Days Availability</li>
+                        <li><i class="la la-check text-success mr-2"></i>2 Tags Per Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>Non-Featured</li>
+                        <li><i class="la la-check text-success mr-2"></i>Limited Support</li>
+                        <li><i class="la la-close text-success mr-2"></i>Average Price Range</li>
+                        <li><i class="la la-close text-success mr-2"></i>Business Hours</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Lifetime Availability</li>
+                        <li><i class="la la-close text-danger mr-2"></i>Featured In Search Results</li>
+                    </ul>
+                    <div class="price-btn-box text-center">
+                        <a href="#" class="theme-btn bg-2 text-white">Get Started <i class="la la-arrow-right ml-2"></i></a>
+                    </div>
+                </div><!-- end price-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="price-item">
+                    <div class="price-head bg-3">
+                        <h3 class="price__title text-uppercase">Business</h3>
+                        <svg class="svg-bg h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><path fill="#fff" d="M0 10 0 0 A 90 59, 0, 0, 0, 100 0 L 100 10 Z"></path></svg>
+                    </div><!-- end price-head -->
+                    <div class="price-box d-flex flex-column align-items-center justify-content-center mx-auto text-color-5">
+                        <h3 class="price__text text-color-5">$29.90 </h3>
+                        <span class="price__text-meta">/ per month</span>
+                    </div><!-- end price-box -->
+                    <ul class="list-items price-list mt-4">
+                        <li><i class="la la-check text-success mr-2"></i>One Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>15 Days Availability</li>
+                        <li><i class="la la-check text-success mr-2"></i>2 Tags Per Listing</li>
+                        <li><i class="la la-check text-success mr-2"></i>Non-Featured</li>
+                        <li><i class="la la-check text-success mr-2"></i>Limited Support</li>
+                        <li><i class="la la-close text-success mr-2"></i>Average Price Range</li>
+                        <li><i class="la la-close text-success mr-2"></i>Business Hours</li>
+                        <li><i class="la la-close text-success mr-2"></i>Lifetime Availability</li>
+                        <li><i class="la la-close text-success mr-2"></i>Featured In Search Results</li>
+                    </ul>
+                    <div class="price-btn-box text-center">
+                        <a href="#" class="theme-btn bg-3 text-white">Get Started <i class="la la-arrow-right ml-2"></i></a>
+                    </div>
+                </div><!-- end price-item -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end pricing-area -->
+<!-- ================================
+    END PRICING AREA
+================================= -->
+
+<div class="section-block"></div>
+
+<!-- ================================
+       START BLOG AREA
+================================= -->
+<section class="blog-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <p class="sec__desc pb-2">From Our Blog</p>
+                    <h2 class="sec__title mb-0">What's on Our Mind</h2>
+                </div><!-- end section-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row padding-top-60px">
+            <div class="col-lg-4 responsive-column">
+                <div class="card-item card-item-layout-2">
+                    <div class="card-image">
+                        <a href="blog-single.html" class="d-block">
+                            <img src="../static/images/img-loading.html" data-src="images/img10.jpg" class="card__img lazy" alt="blog image">
+                            <span class="badge">January 15, 2020</span>
+                        </a>
+                        <div class="post-share">
+                            <span class="la la-share-alt share-icon"></span>
+                            <div class="post-share-social">
+                                <a href="#" class="post-share-social-icon"><i class="lab la-facebook-f"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-twitter"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- end card-image -->
+                    <div class="card-content">
+                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="Kamran Adi">
+                            <img src="../static/images/avatar-img.jpg" alt="author-img">
+                        </a>
+                        <ul class="listing-meta d-flex justify-content-center align-items-center">
+                            <li>
+                                <a href="#" class="listing-cat-link">Travel</a>,
+                                <a href="#" class="listing-cat-link">News</a>
+                            </li>
+                        </ul>
+                        <h4 class="card-title pt-2">
+                            <a href="blog-single.html">Five Of Nature’s Swimming Pools</a>
+                        </h4>
+                        <p class="card-sub mt-3">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem eaque ipsam
+                        </p>
+                        <ul class="listing-action d-flex justify-content-around align-items-center border-top border-top-color mt-4 pt-4">
+                            <li class="pill"><i class="la la-share mr-1"></i>275</li>
+                            <li class="pill"><i class="la la-eye mr-1"></i>319</li>
+                            <li class="pill"><i class="la la-comment mr-1"></i>24</li>
+                        </ul>
+                    </div><!-- end card-content -->
+                </div><!-- end card-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="card-item card-item-layout-2" >
+                    <div class="card-image">
+                        <a href="blog-single.html" class="d-block">
+                            <img src="../static/images/img-loading.html" data-src="images/img11.jpg" class="card__img lazy" alt="blog image">
+                            <span class="badge">March 15, 2020</span>
+                        </a>
+                        <div class="post-share">
+                            <span class="la la-share-alt share-icon"></span>
+                            <div class="post-share-social">
+                                <a href="#" class="post-share-social-icon"><i class="lab la-facebook-f"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-twitter"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- end card-image -->
+                    <div class="card-content">
+                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="Kamran Adi">
+                            <img src="../static/images/avatar-img2.jpg" alt="author-img">
+                        </a>
+                        <ul class="listing-meta d-flex justify-content-center align-items-center">
+                            <li>
+                                <a href="#" class="listing-cat-link">BusinessOwners</a>,
+                                <a href="#" class="listing-cat-link">Restaurants</a>
+                            </li>
+                        </ul>
+                        <h4 class="card-title pt-2">
+                            <a href="blog-single.html">The joyless side of happy hour</a>
+                        </h4>
+                        <p class="card-sub mt-3">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem eaque ipsam
+                        </p>
+                        <ul class="listing-action d-flex justify-content-around align-items-center border-top border-top-color mt-4 pt-4">
+                            <li class="pill"><i class="la la-share mr-1"></i>275</li>
+                            <li class="pill"><i class="la la-eye mr-1"></i>319</li>
+                            <li class="pill"><i class="la la-comment mr-1"></i>24</li>
+                        </ul>
+                    </div><!-- end card-content -->
+                </div><!-- end card-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4 responsive-column">
+                <div class="card-item card-item-layout-2" >
+                    <div class="card-image">
+                        <a href="blog-single.html" class="d-block">
+                            <img src="../static/images/img-loading.html" data-src="images/img12.jpg" class="card__img lazy" alt="blog image">
+                            <span class="badge">July 15, 2020</span>
+                        </a>
+                        <div class="post-share">
+                            <span class="la la-share-alt share-icon"></span>
+                            <div class="post-share-social">
+                                <a href="#" class="post-share-social-icon"><i class="lab la-facebook-f"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-twitter"></i></a>
+                                <a href="#" class="post-share-social-icon"><i class="lab la-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- end card-image -->
+                    <div class="card-content">
+                        <a href="#" class="user-thumb d-inline-block" data-toggle="tooltip" data-placement="top" title="Kamran Adi">
+                            <img src="../static/images/avatar-img3.jpg" alt="author-img">
+                        </a>
+                        <ul class="listing-meta d-flex justify-content-center align-items-center">
+                            <li>
+                                <a href="#" class="listing-cat-link">Tour</a>,
+                                <a href="#" class="listing-cat-link">News</a>
+                            </li>
+                        </ul>
+                        <h4 class="card-title pt-2">
+                            <a href="blog-single.html">Top 5 Boat journey in london</a>
+                        </h4>
+                        <p class="card-sub mt-3">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem eaque ipsam
+                        </p>
+                        <ul class="listing-action d-flex justify-content-around align-items-center border-top border-top-color mt-4 pt-4">
+                            <li class="pill"><i class="la la-share mr-1"></i>275</li>
+                            <li class="pill"><i class="la la-eye mr-1"></i>319</li>
+                            <li class="pill"><i class="la la-comment mr-1"></i>24</li>
+                        </ul>
+                    </div><!-- end card-content -->
+                </div><!-- end card-item -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+        <div class="more-btn-box pt-3 text-center">
+            <a href="blog-grid.html" class="theme-btn gradient-btn"><i class="la la-list-alt mr-2"></i>Browse All Post</a>
+        </div>
+    </div><!-- end container -->
+</section><!-- end blog-area -->
+<!-- ================================
+       START BLOG AREA
+================================= -->
+
+<!-- ================================
+       START FOOTER AREA
+================================= -->
+<section class="footer-area bg-dark pattern-bg before-none padding-top-30px padding-bottom-30px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cta-content d-flex align-items-center justify-content-between p-0">
+                    <div class="section-heading">
+                        <h2 class="sec__title mb-0 font-size-24 line-height-30 text-white">Subscribe to Newsletter!</h2>
+                        <p class="sec__desc font-size-16 text-white-50">Subscribe to get latest updates and information.</p>
+                    </div><!-- end section-heading -->
+                    <form method="post" class="form-box">
+                        <div class="form-group mb-0">
+                            <span class="la la-envelope-o form-icon"></span>
+                            <input class="form-control form-control-styled form-control-long" type="email" placeholder="Enter your email">
+                            <p class="font-size-12 font-weight-medium pt-1 text-white-50"><i class="la la-lock mr-1"></i>Your are 100% protected</p>
+                            <button class="theme-btn gradient-btn subscribe-btn input-btn-append border-0" type="submit">Subscribe <i class="la la-arrow-right ml-1"></i></button>
+                        </div>
+                    </form>
+                </div><!-- end cta-content -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="section-block-2 margin-top-30px margin-bottom-30px"></div>
+        <div class="row">
+            <div class="col-lg-3 responsive-column">
+                <div class="footer-item footer-item-2">
+                    <div class="footer-logo">
+                        <a href="index-2.html" class="foot-logo"><img src="../static/images/logo-white.png" alt="logo"></a>
+                    </div><!-- end footer-logo -->
+                    <p class="footer__desc">
+                        Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros culpa officia deserunt mollit.
+                    </p>
+                    <p class="footer__desc">
+                        <a href="#" class="btn-text">View on the map <i class="la la-arrow-right icon"></i></a>
+                    </p>
+                </div><!-- end footer-item -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 responsive-column">
+                <div class="footer-item footer-item-2">
+                    <h4 class="footer__title text-white">Quick Links</h4>
+                    <div class="stroke-shape mb-3"></div>
+                    <ul class="list-items">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#loginModal">Log In</a></li>
+                        <li><a href="add-listing.html">Add Listing</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div><!-- end footer-item -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 responsive-column">
+                <div class="footer-item footer-item-2">
+                    <h4 class="footer__title text-white">Categories</h4>
+                    <div class="stroke-shape mb-3"></div>
+                    <ul class="list-items">
+                        <li><a href="#">Shops</a></li>
+                        <li><a href="#">Hotels</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Bars</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Fitness</a></li>
+                    </ul>
+                </div><!-- end footer-item -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 responsive-column">
+                <div class="footer-item footer-item-2">
+                    <h4 class="footer__title text-white">Contact with Us</h4>
+                    <div class="stroke-shape mb-3"></div>
+                    <ul class="list-items contact-links">
+                        <li><span class="d-block text-white mb-1"><i class="la la-map mr-1 text-color-2"></i>Address:</span> 12345 Little Baker St, Melbourne</li>
+                        <li><span class="d-block text-white mb-1"><i class="la la-phone mr-1 text-color-2"></i>Phone:</span><a href="#">+ 61 23 8093 3400</a></li>
+                        <li><span class="d-block text-white mb-1"><i class="la la-envelope mr-1 text-color-2"></i>Email:</span><a href="#">listhub@gmail.com</a></li>
+                    </ul>
+                </div><!-- end footer-item -->
+            </div><!-- end col-lg-3 -->
+        </div><!-- end row -->
+        <div class="row pt-4 align-items-center">
+            <div class="col-lg-4">
+                <ul class="social-profile social-profile-colored">
+                    <li><a href="#" class="facebook-bg"><i class="lab la-facebook-f"></i></a></li>
+                    <li><a href="#" class="twitter-bg"><i class="lab la-twitter"></i></a></li>
+                    <li><a href="#" class="instagram-bg"><i class="lab la-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-8">
+                <div class="footer-chosen-container footer-chosen-container-2 user-chosen-select-container d-flex align-items-center justify-content-end">
+                    <div class="mr-2">
+                        <select class="user-chosen-select">
+                            <option value="1" selected>English</option>
+                            <option value="2">Espanol</option>
+                            <option value="3">Deutsch</option>
+                            <option value="4">Türkçe</option>
+                            <option value="5">Polski</option>
+                            <option value="6">Português</option>
+                            <option value="7">Italiano</option>
+                            <option value="8">Dansk</option>
+                            <option value="9">French</option>
+                            <option value="10">German</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select class="user-chosen-select">
+                            <option value="1">Argentina</option>
+                            <option value="2">Australia</option>
+                            <option value="3">Canada</option>
+                            <option value="4">Chile</option>
+                            <option value="5">Czech Republic</option>
+                            <option value="6">France</option>
+                            <option value="7">Germany</option>
+                            <option value="8">Italy</option>
+                            <option value="9">Japan</option>
+                            <option value="10">Mexico</option>
+                            <option value="11">New Zealand</option>
+                            <option value="12">Spain</option>
+                            <option value="13">Turkey</option>
+                            <option value="14">United Kingdom</option>
+                            <option value="15" selected>United States</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-block-2 margin-top-30px margin-bottom-30px"></div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copy-right d-flex align-items-center justify-content-between">
+                    <p class="copy__desc">
+                        &copy; Copyright Listhub <script> document.write(new Date().getFullYear()); </script>. Made with
+                        <span class="la la-heart-o"></span> by <a href="https://themeforest.net/user/techydevs/portfolio">TechyDevs</a>
+                    </p>
+                    <ul class="list-items term-list term-list-2 text-right">
+                        <li class="font-size-14"><a href="#">Terms & Conditions</a></li>
+                        <li class="font-size-14"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div><!-- end copy-right -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end footer-area -->
+<!-- ================================
+       START FOOTER AREA
+================================= -->
+
+<!-- start back-to-top -->
+<div id="back-to-top">
+    <i class="la la-arrow-up" title="Go top"></i>
+</div>
+<!-- end back-to-top -->
+
+<!-- Modal -->
+<div class="modal fade modal-container login-form" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header align-items-center mh-bg">
+                <h5 class="modal-title" id="loginModalTitle">Hey, Welcome back!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-times-circle"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" class="form-box">
+                    <div class="input-box">
+                        <label class="label-text">Username or email</label>
+                        <div class="form-group">
+                            <span class="la la-user form-icon"></span>
+                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username or email address">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label class="label-text">Password</label>
+                        <div class="form-group">
+                            <span class="la la-lock form-icon"></span>
+                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Enter password">
+                        </div>
+                    </div>
+                    <div class="input-box d-flex align-items-center justify-content-between pb-4 user-action-meta">
+                        <div class="custom-checkbox">
+                            <input type="checkbox" id="keepMeSignedChb">
+                            <label for="keepMeSignedChb" class="font-size-14">Keep me signed in</label>
+                        </div>
+                        <a href="javascript:void(0)" class="margin-bottom-10px lost-pass-btn font-size-14">Lost Password?</a>
+                    </div>
+                    <div class="btn-box">
+                        <button type="submit" class="theme-btn gradient-btn w-100">
+                            <i class="la la-sign-in mr-1"></i> Login to Account
+                        </button>
+                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
+                            New to Listhub? <a class="text-color-2 signup-btn" href="javascript:void(0)">Create account</a>
+                        </p>
+                    </div>
+                    <div class="icon-element font-size-16 font-weight-semi-bold mt-5 mb-4 mx-auto">
+                        OR
+                    </div>
+                    <div class="text-center">
+                        <p class="font-size-15 font-weight-medium">Login with your social network</p>
+                        <ul class="social-profile social-profile-colored py-3">
+                            <li>
+                                <a href="#" class="google-bg mx-1" data-toggle="tooltip" data-placement="top" title="Google">
+                                    <i class="lab la-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook-bg mx-1" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                    <i class="lab la-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter-bg mx-1" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                    <i class="lab la-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="instagram-bg mx-1" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                    <i class="lab la-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-container signup-form" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header align-items-center mh-bg-2">
+                <h5 class="modal-title" id="signUpModalTitle">Welcome! create your listhub account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-times-circle"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post" class="form-box">
+                    <div class="input-box">
+                        <label class="label-text">Username</label>
+                        <div class="form-group">
+                            <span class="la la-user form-icon"></span>
+                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label class="label-text">Email</label>
+                        <div class="form-group">
+                            <span class="la la-envelope form-icon"></span>
+                            <input class="form-control form-control-styled" type="email" name="text" placeholder="Email address">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label class="label-text">Password</label>
+                        <div class="form-group">
+                            <span class="la la-lock form-icon"></span>
+                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Enter password">
+                        </div>
+                        <p class="font-size-14 mt-n2">Your password must be at least 6 characters long and must contain letters, numbers and special characters. Cannot contain whitespace.</p>
+                    </div>
+                    <div class="input-box py-4 user-action-meta">
+                        <div class="custom-checkbox">
+                            <input type="checkbox" id="agreeChb">
+                            <label for="agreeChb" class="font-size-14">By signing up, you agree to our <a href="privacy-policy.html" class="text-color-2">Privacy Policy.</a></label>
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <button type="submit" class="theme-btn gradient-btn w-100">
+                            <i class="la la-user-plus mr-1"></i> Register Account
+                        </button>
+                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
+                            Already on Listhub? <a class="text-color-2 login-btn" href="javascript:void(0)">Log in</a>
+                        </p>
+                    </div>
+                    <div class="icon-element font-size-16 font-weight-semi-bold mt-5 mb-4 mx-auto">
+                        OR
+                    </div>
+                    <div class="text-center">
+                        <p class="font-size-15 font-weight-medium">Connect with social network</p>
+                        <ul class="social-profile social-profile-colored py-3">
+                            <li>
+                                <a href="#" class="google-bg mx-1" data-toggle="tooltip" data-placement="top" title="Google">
+                                    <i class="lab la-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="facebook-bg mx-1" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                    <i class="lab la-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="twitter-bg mx-1" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                    <i class="lab la-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="instagram-bg mx-1" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                    <i class="lab la-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="font-size-15 pb-3">Don't worry, we never any post to your social profile.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-container recover-form" id="recoverModal" tabindex="-1" role="dialog" aria-labelledby="recoverModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header align-items-center mh-bg">
+                <h5 class="modal-title" id="recoverModalTitle">Reset password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="la la-times-circle"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="font-size-15 font-weight-medium pb-3">
+                    Enter your username or email to reset your password.
+                    You will receive an email with instructions on how to reset your password. If you are experiencing problems
+                    resetting your password <a href="contact.html" class="text-color-2">contact us</a> or <a href="#" class="text-color-2">send us an email</a>
+                </p>
+                <form method="post" class="form-box">
+                    <div class="input-box">
+                        <label class="label-text">Username or email</label>
+                        <div class="form-group">
+                            <span class="la la-user form-icon"></span>
+                            <input class="form-control form-control-styled" type="text" name="text" placeholder="Username or email address">
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <button type="submit" class="theme-btn gradient-btn w-100">
+                            Get New Password <i class="la la-arrow-right ml-1"></i>
+                        </button>
+                        <p class="sub-text-box text-right pt-1 font-weight-medium font-size-14">
+                            Not a member? <a class="text-color-2 signup-btn" href="javascript:void(0)">Create account</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Template JS Files -->
+<script src="../static/js/jquery-3.4.1.min.js"></script>
+<script src="../static/js/jquery-ui.js"></script>
+<script src="../static/js/popper.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/owl.carousel.min.js"></script>
+<script src="../static/js/jquery.fancybox.min.js"></script>
+<script src="../static/js/animated-headline.js"></script>
+<script src="../static/js/chosen.min.js"></script>
+<script src="../static/js/moment.min.js"></script>
+<script src="../static/js/datedropper.min.js"></script>
+<script src="../static/js/waypoints.min.js"></script>
+<script src="../static/js/jquery.counterup.min.js"></script>
+<script src="../static/js/jquery-rating.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYzby4yYDVaXPmtu4jZAGR258K6IYwjIY&amp;libraries"></script>
+<script src="../static/js/markerclusterer.js"></script>
+<script src="../static/js/map-infobox.js"></script>
+<script src="../static/js/rating-script.js"></script>
+<script src="../static/js/listing-maps.js"></script>
+<script src="../static/js/tilt.jquery.min.js"></script>
+<script src="../static/js/jquery.lazy.min.js"></script>
+<script src="../static/js/main.js"></script>
+</body>
+
+<!-- Mirrored from techydevs.com/demos/themes/html/listhub-demo/listhub/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Sep 2021 23:09:12 GMT -->
+</html>
