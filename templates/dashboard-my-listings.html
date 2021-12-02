@@ -704,7 +704,7 @@
         }
         var
             s = new google.maps.Map(document.getElementById("myMap"), {
-                zoom: 10,
+                zoom: 15,
                 scrollwheel: !1,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 zoomControl: !0,
@@ -827,23 +827,51 @@
                     }]
                 }]
             });
-
-        {% for item in data %}
-              var marker{{ item._id }} = new google.maps.Marker({
-            position: new google.maps.LatLng({{item.latitude}}, {{item.longitude}} ),
-            map: s,
-            title: "{{ item.nom }}"
-});
-        {% endfor %}
-
-
         if (navigator.geolocation) {
+            var options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0
+};
      navigator.geolocation.getCurrentPosition(function (position) {
          var initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-         //console.log(position.coords.latitude)
-         //console.log(position.coords.longitude)
          s.setCenter(initialLocation);
-     });
+
+        $.ajax({
+        url: "/parkings-near/?lat="+position.coords.latitude+"&long="+position.coords.longitude,
+        type: 'GET',
+        cache: false,
+        success: function (result) {
+            if (result) {
+                var data_length = result.length;
+                var markers = []
+                var marker, i;
+for ( i = 0; i < data_length; i++) {
+    alert(result[i]["location"]["coordinates"][1]+","+ result[i]["location"]["coordinates"][0])
+         marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(result[i]["location"]["coordinates"][1], result[i]["location"]["coordinates"][0]),
+                        map: s,
+                        title:  result[i]["nom"],
+                        icon: "/static/images/icon.png"
+                    });
+              markers.push(marker);
+}
+var marker2 = new google.maps.Marker({
+                        position: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+                        map: s,
+                        title:  "ma position"
+});
+    var markerCluster = new MarkerClusterer({s, markers});
+
+            }
+
+        },
+        error: function () {
+            alert("No");
+        }
+    });
+     }, error => console.log(error),
+{enableHighAccuracy: true});
 
 
  }
@@ -851,5 +879,12 @@
     })
 }(this.jQuery);
     </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<script>
+$(document).ready(function() {
+
+
+});
+</script>
 {% endblock %}

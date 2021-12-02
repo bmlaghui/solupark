@@ -171,6 +171,67 @@ def get_some_parkings():
             mimetype="application/json"
         )
 
+
+
+@app.route('/parkings-near/', methods=["GET"])
+def get_near_parkings():
+    try:
+        lat = float(request.args.get("lat"))
+        long = float(request.args.get("long"))
+
+
+         # On crée la requete
+        query = [{
+            "$geoNear": {
+                "near": {
+                    "type": "Point",
+                    "coordinates": [long, lat],
+                },
+                "maxDistance": 1000,
+                "distanceField": "dist_calculated",
+                "includeLocs": "location.coordinates",
+                "spherical": True,
+
+            }
+        },
+            {
+                "$project": {
+                    "_id": 0,
+                    "dist_calculated": 1,
+                    "nom": 1,
+                    "emplacement": 1,
+                    "surface": 1,
+                    "hauteur": 1,
+                    "niveau": 1,
+                    "couvert": 1,
+                    "charge": 1,
+                    "typeVhicule": 1,
+                    "disponibiltes": 1,
+                    "images": 1,
+                    "ratings": 1,
+                    "location":1,
+                    "adresse": 1,
+
+
+                }
+            }
+        ]
+
+        # On prends l'aggregate
+        data = db.parking.aggregate(query)
+        return Response(
+            response=json_util.dumps(data),
+            status=200,
+            mimetype="application/json"
+        )
+    except Exception as ex:
+        print(ex)
+        return Response(
+            response=json.dumps({"message": "cannot get parkings"}),
+            status=500,
+            mimetype="application/json"
+        )
+
 @app.route('/parking', methods=["GET"])
 def get_parkings():
     try:

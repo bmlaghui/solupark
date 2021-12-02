@@ -1,0 +1,5 @@
+pip install bson
+pip install json
+pip install flask
+pip install pymongo
+
